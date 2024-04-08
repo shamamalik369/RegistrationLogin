@@ -1,0 +1,8 @@
+def login():
+    username = "shama"
+    password = "xoxoxo"
+
+    if username_entry.get()==username and password_entry.get()==password:
+        messagebox.showinfo(title="Login Successful!", message="You successfully logged in.")
+    else:
+        messagebox.showerror(title="Error", message="Invalid login ,please Try Again."
